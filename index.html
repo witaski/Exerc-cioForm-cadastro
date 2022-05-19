@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="nome_usuario">Nome Completo:</label>
+        <input type="text" id="nome_usuario" name="nome_usuario">
+        
+        <br>
+
+        <label for="email_usuario">Email:</label>
+        <input type="text" id="email_usuario" name="email_usuario">
+        
+        <br>
+        
+        <label for="numero_telefone">Tel.:</label>
+        <input type="text" id="numero_telefone" name="numero_telefone">
+
+        <br>
+        
+        <label for="logradouro">Logradouro</label>
+        <select name="logradouro" id="logradouro">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">Rua</option>
+            <option value="2">Avenida</option>
+        </select>
+        <br>
+        
+        <label for="endereco_residencial">End.:</label>
+        <input type="text" id="endereco_residencial" name="endereco_residencial">
+
+        <br>
+
+        <label for="numero_residencial">Nº</label>
+        <input type="number" id="numero_residencial" name="numero_residencial">
+
+        <br>
+
+        <label for="bairro">Bairro:</label>
+        <select name="bairro" id="bairro">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">Jd. Praia Grande</option>
+            <option value="2">Santa Eugênia</option>
+            <option value="3">Itaóca</option>
+            <option value="4">Jussara</option>
+            <option value="5">Agenor de Campos</option>
+            <option value="6">Itaguaí</option>
+            <option value="4">Flórida Mirim</option>
+        </select>
+
+        <br>
+
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">Mongaguá</option>
+            <option value="2">Itanhaem</option>
+            <option value="3">Peruibe</option>
+        </select>
+
+        <br>    
+
+        <label for="uf">UF:</label>
+        <select name="uf" id="uf">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">AC</option>
+            <option value="2">AL</option>
+            <option value="3">AP</option>
+            <option value="4">AM</option>
+            <option value="5">BA</option>
+            <option value="6">CE</option>
+            <option value="7">DF</option>
+            <option value="8">ES</option>
+            <option value="9">GO</option>
+            <option value="10">MA</option>
+            <option value="11">MT</option>
+            <option value="12">MS</option>
+            <option value="13">MG</option>
+            <option value="14">PA</option>
+            <option value="15">PB</option>
+            <option value="16">PR</option>
+            <option value="17">PE</option>
+            <option value="18">PI</option>
+            <option value="19">RJ</option>
+            <option value="20">RN</option>
+            <option value="21">RS</option>
+            <option value="22">RO</option>
+            <option value="23">RR</option>
+            <option value="24">SC</option>
+            <option value="25">SP</option>
+            <option value="26">SE</option>
+            <option value="27">TO</option>
+        </select>
+
+        <br>
+
+        <label for="cep">CEP.:</label>
+        <input type="number" id="cep" name="cep">
+
+        <br>
+        
+        <label for="estado_civil">Estado cívil</label>
+        <select name="estado_civil" id="estado_civil">
+            <option value="0" selected>--- selecione ---</option>
+            <option value="1">Solteiro(a)</option>
+            <option value="2">Divorciado(a)</option>
+            <option value="3">Viúvo(a)</option>
+            <option value="3">Separado(a)</option>
+        </select>
+        <br>
+
+        <label>Opção de preferência de contato</label>
+        <input type="radio" id="" name="email" >
+        <label for="email">Email</label>
+        <input type="radio" id="" name="telefone">
+        <label for="telefone">Telefone</label>
+
+        <br>
+    
+        <input type="checkbox" id="li_e_concordo" name="li_e_concordo>">
+        <label for="li_e_concordo">Li e concordo com os termos</label>
+
+        <br>
+  
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar preenchimento</button>
+    </form>
+</body>
+</html>
