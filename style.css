@@ -2,10 +2,6 @@ input {
     border: 2px solid black;
 }
 
-input [type="text"] {
-    background-color: black;
-}
-
 input {
     background-color: grey;
 }
@@ -34,4 +30,12 @@ select {
 
 fieldset {
     border: 2px solid black
+}
+
+body{
+    background-color: blue;
+}
+
+label{
+    background-color: white;
 }
